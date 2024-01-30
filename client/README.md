@@ -56,7 +56,7 @@ The quality check method can also be accessed through the PaymentsController
 ### Fetch Bookings with Quality Check
 The main functionality of the application is in the BookingsQualityCheckService.rb. That fetches booking data from an external API through a service, processes the bookings, calculates the amount with fees, and performs the quality check on each booking. The results are then displayed on the with_quality_check view.
 
-To use the application, visit http://localhost:3000/payments/with_quality_check in your web browser.
+To use the application, visit http://localhost:3000/payments_with_quality_check in your web browser.
 ```
 Just make it sure that your server side (server application) should running for running client side.
 ```
